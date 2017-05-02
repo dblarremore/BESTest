@@ -1,13 +1,10 @@
-# BESTest
-# MATLAB for Blockmodel Entropy Significance Test
-# May 3, 2017
-#
-# Described in the paper:
-# "The ground truth about metadata and community detection."
-# Peel, Larremore, Clauset. Science Advances, 2017. 
-# http://danlarremore.com/metadata 
-# Comments or questions to larremore@santafe.edu
-
+# MATLAB for Blockmodel Entropy Significance Test (BESTest)
+May 3, 2017
+Described in the paper:
+"The ground truth about metadata and community detection."
+Peel, Larremore, Clauset. Science Advances, 2017. 
+http://danlarremore.com/metadata 
+Comments or questions to larremore@santafe.edu
 # Usage:
 BESTest.m is should be called 
 p = BESTest(adjMtx,partition,nSamples,modelName)
@@ -25,6 +22,5 @@ p = BESTest(adjMtx,partition,nSamples,modelName)
       * 'dcSBMpoisson'
       * 'SBMbernoulli'
       * 'dcSBMmultinomial'
-
 # Example Code:
 see lazegaLawyersDemo.m for sample code and usage, fully reproducing Table 1 from the manuscript
