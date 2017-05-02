@@ -1,12 +1,15 @@
 # MATLAB for Blockmodel Entropy Significance Test (BESTest)
 May 3, 2017
 Described in the paper:
+
 "The ground truth about metadata and community detection."
-Peel, Larremore, Clauset. Science Advances, 2017. 
-http://danlarremore.com/metadata 
+Peel, Larremore, Clauset. Science Advances, 2017.
+
+Data and other code: http://danlarremore.com/metadata 
+
 Comments or questions to larremore@santafe.edu
 # Usage:
-BESTest.m is should be called 
+BESTest.m should be called as 
 p = BESTest(adjMtx,partition,nSamples,modelName)
 # OUTPUT
   * p - p value as described in the paper
