@@ -5,8 +5,6 @@ Described in the paper:
 "The ground truth about metadata and community detection."
 Peel, Larremore, Clauset. Science Advances, 2017.
 
-Data and other code: http://danlarremore.com/metadata 
-
 Comments or questions to larremore@santafe.edu
 # Usage:
 BESTest.m should be called as 
